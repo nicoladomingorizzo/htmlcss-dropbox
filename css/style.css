@@ -28,13 +28,13 @@ body {
 
 .container {
   max-width: 1440px;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
 .container-small {
   max-width: 1200px;
-  width: 55%;
+  width: 70%;
   margin: 0 auto;
 }
 .col {
@@ -63,8 +63,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  padding: 0 10px;
-flex-wrap: wrap;}
+  padding: 0 10px;}
 
 
   .d-flex-circle{
@@ -107,6 +106,10 @@ flex-wrap: wrap;}
     gap: 10px;
     padding: 5px 0;
   }
+
+  .d-flex-col {
+    display: flex;
+    justify-content: flex-start;}
 /* Header */
 
 #menu {
@@ -174,7 +177,7 @@ flex-wrap: wrap;}
     top: 0;
     left: 270px;
     .jumbo-img {
-      width: 125%;
+      max-width: 125%;
     }
   }
   .row {
@@ -249,4 +252,5 @@ flex-wrap: wrap;}
     
  }
 }
+
 /* Footer */
