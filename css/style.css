@@ -31,6 +31,12 @@ body {
   width: 70%;
   margin: 0 auto;
 }
+
+.container-small {
+  max-width: 1200px;
+  width: 55%;
+  margin: 0 auto;
+}
 .col {
   width: calc(100% / 12 * 1);
   flex-basis: auto;
@@ -57,8 +63,16 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  padding: 0 10px;
-}
+  padding: 0 10px;}
+
+  .d-flex-circle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px
+    ;
+    
+  }
 /* Header */
 
 #menu {
@@ -104,7 +118,6 @@ body {
   h1 {
     font-size: 4rem;
     padding: 100px 0 50px 0;
-
   }
   button {
     margin: 20px 0;
@@ -122,18 +135,38 @@ body {
     font-size: 5rem;
     color: var(--dis-color-black);
   }
-  .col-8{
+  .col-8 {
     position: absolute;
     top: 0;
     left: 270px;
-    .jumbo-img{
-        width: 125%;
+    .jumbo-img {
+      width: 125%;
     }
+  }
+  .row {
+    position: relative;
   }
 }
 
-.row{
-    position: relative;
+.business-plans {
+  margin-top: 100px;
+  border-top: 1px solid var(--dis-color--lightgray);
+  h2 {
+    font-size: 2rem;
+    margin: 30px 0;
+}
+
+.circle-bordered,
+.circle {
+    border: 1px solid var(--dis-color-black);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;}
+    .circle-bordered {
+        width: 20px;
+        height: 20px;
+        border: 5px solid var(--dis-color-blue);
+    }
 }
 
 
