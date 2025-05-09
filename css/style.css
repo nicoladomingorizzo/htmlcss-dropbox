@@ -63,7 +63,9 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  padding: 0 10px;}
+  padding: 0 10px;
+flex-wrap: wrap;}
+
 
   .d-flex-circle{
     display: flex;
@@ -72,6 +74,38 @@ body {
     gap: 10px
     ;
     
+  }
+
+  .d-flex-plans{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+
+  }
+
+  .d-flex-icon-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+  }
+
+  .d-flex-icon-plan-inside{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+  }
+
+  .d-flex-icon-plan-inside-top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 5px 0;
   }
 /* Header */
 
@@ -153,8 +187,17 @@ body {
   border-top: 1px solid var(--dis-color--lightgray);
   h2 {
     font-size: 2rem;
-    margin: 30px 0;
-}
+    margin: 30px 0;}
+
+    .single-person{
+        height: 20px;
+        width: 100%;
+        border-bottom: 1px solid var(--dis-color--lightgray);
+    }
+    .row{
+        margin-top: 30px;
+    }
+
 
 .circle-bordered,
 .circle {
@@ -168,6 +211,42 @@ body {
         border: 5px solid var(--dis-color-blue);
     }
 }
+.borders{
+    border: 1px solid var(--dis-color--lightgray);
 
-
+    .col-4-organization{
+        padding: 20px 20px 100px 20px;
+    }
+ .function{
+    padding-bottom: 30px;
+ }
+ .offline > span, .send > span{
+    color: var(--dis-color-blue);
+    font-size: 1.5rem;
+ }
+    .professional, .cost, .duration, .user-number, .space, .function, .shop-now, h4, .send, .offline {
+        padding-top: 20px;
+    }
+ button{
+    background-color: var(--dis-color-blue);
+    color: var(--dis-color--lightgray);
+    border: none;
+    padding: 10px 20px;
+ }
+ .duration{
+    color: var(--dis-color--lightgray);
+ }
+ .professional{
+    padding-bottom: 20px;
+ }
+ h3{
+    font-size: 1.5rem;
+ }
+ .shop-now{
+    border-bottom: 1px solid var(--dis-color--lightgray);
+    border-width: 10%;
+    padding-bottom: 20px;
+    
+ }
+}
 /* Footer */
