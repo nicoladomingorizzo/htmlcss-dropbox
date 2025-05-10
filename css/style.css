@@ -110,8 +110,7 @@ body {
   .d-flex-row{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
+    gap: 5px;
 
   }
   .d-flex-col {
@@ -199,7 +198,7 @@ body {
     font-size: 2rem;
     margin: 30px 0;}
 
-    .single-person, .team-people, .factory{
+    .single-person, .team-people, .factory, .team{
         height: 30px;
         width: 100%;
         border-bottom: 1px solid var(--dis-color--lightgray);
@@ -226,7 +225,7 @@ body {
 
 
 }
-.borders{
+.borders-4{
     border: 1px solid var(--dis-color--lightgray);
 
     .col-4-organization{
@@ -264,5 +263,26 @@ body {
     
  }
 }
+.col-12{
+position: relative;
+    h3, span, p{
+        margin: 20px;
+    }
+    h3{
+        font-size: 1.5rem;
+     }
+    .borders{
+        border: 1px solid var(--dis-color--lightgray);
+    }
 
+    button{
+        background-color: var(--dis-color-blue);
+        color: var(--dis-color--lightgray);
+        border: none;
+        padding: 10px 20px;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+}
+}
 /* Footer */
