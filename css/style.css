@@ -116,6 +116,12 @@ body {
   .d-flex-col {
     display: flex;
     justify-content: flex-start;}
+
+    .d-flex-wrap{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 /* Header */
 
 #menu {
@@ -284,5 +290,52 @@ position: relative;
         top: 50px;
         right: 20px;
 }
+}
+
+.dropbox-partner{
+
+.row{
+    margin: 50px 0;
+}
+    img{
+        width: 100%;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    .find-partner{
+        margin: 50px 20px;
+        p{
+            margin: 20px 0;
+        }
+    }
+
+    button{
+        padding: 5px 10px;
+        background-color: white;
+        border-color: var(--dis-color--lightgray);
+    }
+}
+.explanation-dropbox-business{
+
+    h2{
+        font-size: 2.5em;
+    }
+
+    h3{
+        margin: 10px 0 20px 0;
+        font-size: 1.5rem;
+    }
+
+    p{
+        line-height: 18px;
+        font-size: 1.2rem;
+    }
+
+    .col-4{
+        margin: 20px 0;
+    }
 }
 /* Footer */
