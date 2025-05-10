@@ -331,11 +331,11 @@ position: relative;
 
     p{
         line-height: 18px;
-        font-size: 1.2rem;
     }
 
     .col-4{
         margin: 20px 0;
+        padding: 0px 20px;
     }
 }
 /* Footer */
