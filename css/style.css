@@ -156,7 +156,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 200px;
+  gap: 300px;
 }
 
 /* Main */
@@ -417,6 +417,8 @@ position: relative;
         background-color: var(--dis-color-black);
         color: var(--dis-color--lightgray);
         border: none;
+        margin-top: 50px;
  }
  }
+
 }
