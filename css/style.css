@@ -261,16 +261,16 @@ body {
     }
 
     .col-4-organization{
-        padding: 20px 20px 100px 20px;
+        padding: 20px 20px 100px 30px;
     }
  .function{
     padding-bottom: 30px;
  }
- .offline > span, .send > span, .sale > span, .new > span, .role > span, .assistance > span, .customizable > span{
+ .send > span{
     color: var(--dis-color-blue);
     font-size: 1.5rem;
  }
-    .professional, .cost, .duration, .user-number, .space, .function, .shop-now, h4, .send, .offline, .sale, .new, .role {
+    .professional, .cost, .duration, .user-number, .space, .function, .shop-now, h4, .send {
         padding-top: 20px;
     }
  button{
@@ -298,6 +298,17 @@ body {
  }
  .user-number{
   margin-bottom: 45px;
+ }
+
+ .offline, .assistance{
+  padding:14px 0;
+ }
+ .customizable{
+  margin-top: -5px;
+ }
+
+ .offline{
+  margin-top: 5px;
  }
 }
 .col-12{
