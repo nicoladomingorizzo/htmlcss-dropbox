@@ -310,6 +310,13 @@ body {
  .offline{
   margin-top: 5px;
  }
+ .new-member{
+  margin-top: -5px;
+ }
+
+ .savings{
+  margin-top: 5px;
+ }
 }
 .col-12{
 position: relative;
