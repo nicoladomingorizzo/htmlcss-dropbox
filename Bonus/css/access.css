@@ -75,4 +75,7 @@ form {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
     }
 
-   
+   a:hover{
+    box-shadow: 0 10px 20px rgba(195, 195, 195, 0.5);
+    cursor: pointer;
+   }
