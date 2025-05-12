@@ -182,7 +182,13 @@ body {
     height: 50px;
     text-decoration: none;
     font-size: 5rem;
-    color: var(--dis-color-black);
+    color: var(--dis-color-black);ù
+
+    a:active, a:visited{
+      color: var(--dis-color-black);
+
+    }
+    }
   }
   .col-8 {
     position: absolute;
@@ -195,7 +201,6 @@ body {
   .row {
     position: relative;
   }
-}
 
 .business-plans {
   margin-top: 100px;
