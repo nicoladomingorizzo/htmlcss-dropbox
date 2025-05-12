@@ -82,7 +82,24 @@ body {
     
 
   }
+  .d-flex-plans-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 35px;
+    
 
+  }
+  .d-flex-plans-lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top:32px;
+    
+
+  }
   .d-flex-icon-plan{
     display: flex;
     justify-content: center;
@@ -95,7 +112,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     padding: 5px 0;
   }
 
@@ -239,6 +256,10 @@ body {
 .borders-4{
     border: 1px solid var(--dis-color--lightgray);
 
+    ul{
+      list-style: none;
+    }
+
     .col-4-organization{
         padding: 20px 20px 100px 20px;
     }
@@ -261,9 +282,11 @@ body {
  .duration{
     color: var(--dis-color--lightgray);
  }
- .professional{
-    padding-bottom: 20px;
+
+ .costs{
+  margin-bottom: 20px;
  }
+
  h3{
     font-size: 1.5rem;
  }
@@ -272,6 +295,9 @@ body {
     border-width: 10%;
     padding-bottom: 20px;
     
+ }
+ .user-number{
+  margin-bottom: 45px;
  }
 }
 .col-12{
