@@ -42,10 +42,12 @@ form {
     border-radius: 5px;
     border: 1px solid rgb(100, 100, 100);
     margin-bottom: 20px;
-    }
+  }
+  input[type="password"]{}
+  
 
     button{
-        background-color: #0061fd;
+        background-color: gray;
         color: lightgray;
         padding: 10px 20px;
         border: none;
@@ -54,7 +56,9 @@ form {
     }
 
     button:hover{
-        background-color: yellow;
+      background-color: #0061fd;
         color: black;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
     }
+
+   
