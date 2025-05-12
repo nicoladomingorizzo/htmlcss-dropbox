@@ -482,4 +482,5 @@ button:hover{
 
 button{
   cursor: pointer;
+  border-radius: 5px;
 }
